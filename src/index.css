@@ -67,6 +67,11 @@
       /* transform: translateX(-10px); */
     }
   }
+
+.animate-card{
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+}
 .animate-circle{
     animation: bounceUpDown 4s infinite;
 }

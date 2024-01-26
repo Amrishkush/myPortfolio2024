@@ -98,7 +98,7 @@ function Portfolio() {
               <div className="flex gap-4">
               {item.tech.map((skill)=>(
                 <div
-                  className="bg-gray-900 rounded-full m-auto mt-10 w-20 sm:w-24 h-20 sm:h-24 flex"
+                  className="bg-gray-900 rounded-full m-auto mt-10 w-20 sm:w-24 h-20 sm:h-24 flex animate-pulse"
                   style={conicGradientStyle(skill.performance)}
                   key={skill.id}
                 >
