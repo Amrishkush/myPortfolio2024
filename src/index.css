@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "amsterdamFour";
+    src: url("Fonts/amsterdam-four.ttf") format('truetype');
+}
+@font-face {
+    font-family: "pacificoRegular";
+    src: url("Fonts/Pacifico-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "poppins";
+    src: url("Fonts/poppins.ttf") format('truetype');
+}
+@font-face {
+    font-family: "jost";
+    src: url("Fonts/jost.ttf") format('truetype');
+}
+
+.background {
+    background-image: url('./Assests/background.jpg');
+    background-size: cover;
+    background-position: top right;
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(0deg); /* Adjust the tilt angle as needed */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(176, 173, 167)
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(10, 95, 108);
+    border-radius: 10px;
+} 
+@keyframes bounceUpDown {
+    0%, 100% {
+      transform: translateY(5px);
+      /* transform: translateX(10px); */
+    }
+    50% {
+      transform: translateY(-5px);
+      /* transform: translateX(-10px); */
+    }
+  }
+  @keyframes bounceUpDownJs {
+    0%, 100% {
+      transform: translateY(100px);
+      /* transform: translateX(10px); */
+    }
+    50% {
+      transform: translateY(0px);
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes bounceUpDownScroll {
+    0%, 100% {
+      transform: translateY(10px);
+      /* transform: translateX(10px); */
+    }
+    50% {
+      transform: translateY(-10px);
+      /* transform: translateX(-10px); */
+    }
+  }
+.animate-circle{
+    animation: bounceUpDown 4s infinite;
+}
+.animate-js{
+    animation: bounceUpDownJs 10s infinite;
+}
+.animate-scroll{
+    animation: bounceUpDownScroll 4s infinite; 
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
