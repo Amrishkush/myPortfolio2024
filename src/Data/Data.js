@@ -105,7 +105,7 @@ export const projectData = [
     date: "20 Jan, 2024",
     duration: "20 Days",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: ["/src/Images/background.jpg"],
+    imageUrl: ["src/Images/background.jpg"],
     videoUrl: " ",
     codeUrl: "https://google.com ",
     siteUrl: "https://github.com"
