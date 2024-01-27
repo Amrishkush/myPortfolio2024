@@ -1,4 +1,4 @@
-import "./app.css";
+
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
 import Portfolio from "./components/Portfolio";

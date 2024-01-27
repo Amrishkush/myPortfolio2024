@@ -4,9 +4,11 @@ const data = portfolioData;
 const techData = techSkills;
 
 function Portfolio() {
+
   const conicGradientStyle = (angle)=> ({
     background: `conic-gradient(#f97316 ${angle * 3.6}deg, #333333 0deg)`,
   });
+  
   return (
     <div className="" id="about">
       <div className="lg:flex">
