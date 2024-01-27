@@ -16,7 +16,7 @@
 }
 
 .background {
-    background-image: url('./Assests/background.jpg');
+    background-image: url('./Images/background.jpg');
     background-size: cover;
     background-position: top right;
     width: 100vw;

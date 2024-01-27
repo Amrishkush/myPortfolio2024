@@ -99,7 +99,7 @@ function DetailsModal({ project, setProject }) {
         </div>
         <div className="mt-10">
           <img
-            src="\src\Assests\background.jpg"
+            src="\src\Image\background.jpg"
             alt=""
             className="h-60 w-full"
           />

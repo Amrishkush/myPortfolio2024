@@ -14,7 +14,7 @@ function Portfolio() {
       <div className="lg:flex">
         <div className="w-[95%] lg:w-[40%] m-auto p-5 hidden lg:block">
           <img
-            src="\src\Assests\myFullImage.jpg"
+            src="\src\Images\myFullImage.jpg"
             alt=""
             className="sm:w-[40%] lg:w-[80%] m-auto rounded-full border-2 border-gray-500"
           />
