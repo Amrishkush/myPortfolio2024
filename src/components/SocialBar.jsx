@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 function SocialBar() {
   return (
-    <div className="flex-col h-[40%] hidden sm:block">
+    <div className="flex-col h-[40%] ">
       <div className="mb-12 h-[40%]">
         <a href="https://www.linkedin.com/in/amrishkush/" target="_blank" rel="noopener noreferrer">
                   

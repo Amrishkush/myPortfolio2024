@@ -48,7 +48,7 @@ function App() {
             
           </div>
         </div>
-        <div className="sticky bottom-0 w-full">
+        <div className="fixed bottom-0 w-full">
         <Footer/>
         </div>
       </div>
