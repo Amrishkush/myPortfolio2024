@@ -9,7 +9,7 @@ function Home() {
           <span className="animate-js absolute top-20 left-[40%] z-10">
             <FaNodeJs color="green" size={30} />
           </span>
-          <img src="\src\Images\myImage.jpg" alt="" className="w-full" />
+          <img src="Images/myImage.jpg" alt="" className="w-full" />
           {/* <div className="moving-border"></div> */}
         </div>
         <div className="h-full w-full lg:w-[60%] m-auto px-1 lg:pl-10">
