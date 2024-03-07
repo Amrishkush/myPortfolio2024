@@ -99,8 +99,9 @@ export const techSkills = [
 
 export const projectData = [
   {
-    id: 1,
+    id: 7,
     title: "Flash Card Generator",
+    group: "MERN Stack Full",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -111,8 +112,9 @@ export const projectData = [
     siteUrl: "https://github.com"
   },
   {
-    id: 2,
+    id: 6,
     title: "Portfolio Website",
+    group: "ReactJS Frontend",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -120,10 +122,12 @@ export const projectData = [
     imageUrl: ["Images/background.jpg"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
   {
-    id: 3,
+    id: 5,
     title: "Ecommerce App",
+    group: "ReactJS Frontend",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -131,10 +135,12 @@ export const projectData = [
     imageUrl: ["Images/quick-mart-ecommerce-cover.png"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
   {
     id: 4,
     title: "Todo App",
+    group: "ReactJS Frontend",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -142,10 +148,12 @@ export const projectData = [
     imageUrl: ["Images/todos-app-cover.png"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
   {
-    id: 5,
+    id: 3,
     title: "Weather App",
+    group: "ReactJS Frontend",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -153,10 +161,12 @@ export const projectData = [
     imageUrl: ["Images/weather-app-cover.png"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
   {
-    id: 6,
+    id: 2,
     title: "Dice Game App",
+    group: "DOM Manipulation",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -164,10 +174,12 @@ export const projectData = [
     imageUrl: ["Images/dice-game-cover.png"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
   {
-    id: 7,
+    id: 1,
     title: "Drum Kit App",
+    group: "DOM Manipulation",
     techStack: ["React", "Tailwind CSS"],
     date: "20 Jan, 2024",
     duration: "20 Days",
@@ -175,6 +187,7 @@ export const projectData = [
     imageUrl: ["Images/drum-kit-cover.png"],
     videoUrl: " ",
     codeUrl: " ",
+    siteUrl: "https://github.com"
   },
 ];
 

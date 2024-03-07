@@ -1,5 +1,5 @@
 import { IoIosHome } from "react-icons/io";
-import { FaUser } from "react-icons/fa";
+import { FaBlog, FaUser } from "react-icons/fa";
 import { IoIosChatbubbles } from "react-icons/io";
 // import { MdWork } from "react-icons/md";
 import { MdAssignment } from "react-icons/md";
@@ -31,7 +31,7 @@ function Sidebar({ setComponent, component }) {
       <h2 className="text-right left-9 absolute top-5 rotate-90 font-poppins tracking-wider bg-orange-500 px-1  rounded-md">MENU</h2>
       <div
         className={`bg-gray-800 inline-block ${
-          isMenuOpen ? "h-[300px] " : "h-18"
+          isMenuOpen ? "h-[340px] " : "h-18"
         } rounded-full m-auto relative top-0 left-[-18px] p-4`}
       >
         {isMenuOpen ? (
@@ -48,7 +48,7 @@ function Sidebar({ setComponent, component }) {
           />
         )}
       </div>
-      <div className={`absolute top-16 ${isMenuOpen ? "" : "hidden"}`}>
+      <div className={`absolute top-16 left-1 ${isMenuOpen ? "" : "hidden"}`}>
         <a
           className="flex gap-9 my-4 font-bold font-poppins cursor-pointer"
           onClick={() => {
@@ -82,12 +82,6 @@ function Sidebar({ setComponent, component }) {
             ABOUT
           </span>
         </a>
-        {/* <div className="flex gap-9 my-4 font-bold font-poppins" >
-          <span className="my-auto">
-            <MdWork size={18} className="text-gray-300" />
-          </span>
-          <span className="bg-slate-900 text-white p-1 rounded-lg">PORTFOLIO</span>
-        </div> */}
         <a
           className="flex gap-9 my-4 font-bold font-poppins cursor-pointer"
           onClick={() => setComponent("projects")}
@@ -121,6 +115,26 @@ function Sidebar({ setComponent, component }) {
             CONTACT
           </span>
         </a>
+        <a
+          className="flex gap-9 my-4 font-bold font-poppins"
+          // onClick={() => setComponent("contact")}
+          href="https://blog.amrishpratapsingh.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="my-auto">
+            <FaBlog
+              size={18}
+              className={`${handleColor("blog")}`} 
+            />
+          </span>
+          <span
+            className={`bg-[#333333]  px-2 py-1 rounded-lg ${handleColor("blog")}`}
+          >
+            BLOG
+          </span>
+        </a>
+
       </div>
     </div>
   );
