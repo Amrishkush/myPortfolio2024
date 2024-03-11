@@ -14,7 +14,7 @@ function DetailsModal({ project, setProject }) {
           {projectData.title}
         </h1>
         <h3 className="font-poppins text-sm text-gray-500 mt-3 mb-5 font-extrabold">
-          {projectData.techStack[0]}
+          {projectData.group}
         </h3>
         <div className="justify-between ">
           <div className="w-[100%] lg:flex justify-between p-8 text-white bg-gray-800 mb-8 hidden">
@@ -97,11 +97,21 @@ function DetailsModal({ project, setProject }) {
             </div>
           </div>
         </div>
-        <div className="mt-10">
+        <div className="mt-2 flex flex-wrap gap-x-2 gap-y-4">
           <img
-            src="\src\Image\background.jpg"
+            src={`${projectData.imageUrl[1]}`}
             alt=""
-            className="h-60 w-full"
+            className="h-60 w-[100%]"
+          />
+          <img
+            src={`${projectData.imageUrl[2]}`}
+            alt=""
+            className="h-60 w-[100%]"
+          />
+          <img
+            src={`${projectData.imageUrl[3]}`}
+            alt=""
+            className="h-60 w-[100%]"
           />
         </div>
         <div className="fixed top-8 sm:top-[7%] right-[10px] sm:right-[8%] lg:right-[20%]">

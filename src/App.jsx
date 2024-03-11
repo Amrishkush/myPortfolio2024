@@ -24,9 +24,9 @@ function App() {
           <div className="sticky top-0 z-50">
             <Sidebar setComponent={setComponent} component={component} />
           </div>
-          <div className="font-amsterdamFour font-thin text-center tracking-wider text-black sm:text-[3vw] md:text-[2vw] text-[4vw] sticky top-0 py-4 z-0">
+          {/* <div className="font-amsterdamFour font-thin text-center tracking-wider text-black sm:text-[3vw] md:text-[2vw] text-[4vw] sticky top-0 py-4 z-10">
             Amrish
-          </div>
+          </div> */}
           <div className="fixed top-6 right-0">
             <SocialBar />
           </div>

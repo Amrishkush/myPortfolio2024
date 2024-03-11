@@ -30,14 +30,12 @@ function Portfolio() {
             <span className="text-orange-400">ABOUT</span> ME
           </h1>
           <p className="w-[98%] font-poppins text-center sm:text-left text-[16px] my-8">
-            Hello! I am Amrish , a passionate educator transitioning into the
-            world of front-end development. With a strong background in teaching
-            physics and science, I have embarked on a journey to learn the art
-            of React, JavaScript, HTML, and CSS. <br /> <br />
-            As a teacher-turned-front-end developer, I bring a unique
-            perspective to crafting user-friendly interfaces and enjoy solving
-            complex problems using my JavaScript learning and enjoy staying up
-            to date with the latest front-end technologies and best practices.
+          Hello! I am Amrish, a dedicated full-stack developer. Over the past year, I have immersed myself in coding, gaining hands-on experience in HTML, CSS, TailwindCSS, JavaScript, ReactJS for the Frontend, Node.js for the Backend, MongoDB for Database Management, and building complete applications using the MERN stack. <br /><br />
+          
+          As a former teacher of physics and science education turned into a Full-Stack-Developer, I bring a unique perspective to crafting user-friendly interfaces and enjoy solving complex problems. My journey includes the successful completion of several personal projects, showcasing my proficiency in creating dynamic and interactive web experiences. I am dedicated to continuous learning and growth as a front-end developer. <br /><br />
+
+          Eager to contribute to innovative projects and collaborative teams, If you are seeking a passionate MERN stack developer with a solid grasp of Frontend technologies like ReactJS and backend technologies including Node.js, Express.js MongoDB. I am ready to bring my coding expertise to the next exciting challenge. <br />
+            
           </p>
           <div className="xl:flex gap-24 justify-around w-[98%]">
             <ul>

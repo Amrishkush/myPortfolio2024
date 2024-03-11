@@ -57,10 +57,10 @@ function Projects({ setProject }) {
               {item.title}
             </h2>
             <h4 className="font-poppins font-extrabold text-orange-500">
-              {item.techStack[0]}
+              {item.group}
             </h4>
             <div
-              className="mt-4 text-center w-[70%] sm:w-[65%] m-auto  border-2 border-orange-500 hover:bg-orange-500 cursor-pointer font-poppins text-white px-4 py-1"
+              className="mt-6 text-center w-[70%] sm:w-[65%] m-auto  border-2 border-orange-500 hover:bg-orange-500 cursor-pointer font-poppins text-white px-4 py-1"
               onClick={() => setProject(item)}
             >
               Read More...
