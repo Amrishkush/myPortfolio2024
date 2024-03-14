@@ -49,54 +49,6 @@ export const portfolioData = [
   }
 ];
 
-export const techSkills = [
-    {
-        id: 1,
-        stack: "Front-End Development",
-        performance: "80%",  //percentage in taiwind don't support 82 or 85 it supports 80 90 or tens value 
-        tech: [
-            {
-                id: 1,
-                techName: "ReactJs",
-                performance: 80
-            },
-            {
-                id: 2,
-                techName: "JavaScript",
-                performance: 70
-            },
-            {
-                id: 3,
-                techName: "Tailwind",
-                performance: 81
-            }
-        ]
-    },
-    {
-        id: 2,
-        stack: "Back-End Development",
-        performance: "70%",
-        tech: [
-            {
-                id: 1,
-                techName: "NodeJs",
-                performance: 70
-            },
-            {
-                id: 2,
-                techName: "MongoDB",
-                performance: 70
-            },
-            {
-                id: 3,
-                techName: "SQL",
-                performance: 70
-            }
-        ]
-    },
-
-]
-
 export const projectData = [
   {
     id: 8,

@@ -65,6 +65,7 @@ function Contact() {
               name="name"
               placeholder="👤 YOUR NAME"
               className="border-2 rounded-2xl border-gray-400 w-full sm:w-[48%] m-[1%] my-3 p-2 focus:outline-none focus:border-orange-600  active:border-orange-600"
+              autoComplete="name"
               required
             />
             <input
@@ -73,6 +74,7 @@ function Contact() {
               name="email"
               placeholder="✉ YOUR EMAIL"
               className="border-2 rounded-2xl border-gray-400 w-full sm:w-[48%] m-[1%] mt-3 mb-6 p-2 focus:outline-none focus:border-orange-600  active:border-orange-600"
+              autoComplete="email"
               required
             />
 
@@ -82,6 +84,7 @@ function Contact() {
               rows="4"
               placeholder="🗪 YOUR MESSAGE"
               className="border-2 rounded-2xl border-gray-400  w-[98%] m-auto p-2 focus:outline-none focus:border-orange-600  active:border-orange-600"
+              autoComplete="on"
               required
             ></textarea>
 

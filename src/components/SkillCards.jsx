@@ -2,7 +2,6 @@
 
 
 function SkillCards({list}) {
-    console.log(list)
   return (
     <div className="flex justify-center gap-x-10 lg:w-[50%] bg-gray-900 text-gray-100 px-3 py-6 flex-wrap gap-y-6">
       {
