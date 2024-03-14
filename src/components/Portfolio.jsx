@@ -1,4 +1,5 @@
 import { portfolioData} from "../Data/Data";
+import Certifications from "./Certifications";
 import Skills from "./Skills";
 
 const data = portfolioData;
@@ -83,6 +84,7 @@ function Portfolio() {
           <span className="text-orange-400 underline">SKI</span>LLS
         </h1>
         <Skills/>
+        <Certifications/>
       </div>
       <div className="lg:flex gap-4">
       {data.map((item)=>(
