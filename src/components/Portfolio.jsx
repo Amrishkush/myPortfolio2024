@@ -1,13 +1,12 @@
-import { portfolioData, techSkills} from "../Data/Data";
+import { portfolioData} from "../Data/Data";
+import Skills from "./Skills";
 
 const data = portfolioData;
-const techData = techSkills;
+
 
 function Portfolio() {
 
-  const conicGradientStyle = (angle)=> ({
-    background: `conic-gradient(#f97316 ${angle * 3.6}deg, #333333 0deg)`,
-  });
+ 
   
   return (
     <div className="" id="about">
@@ -83,38 +82,7 @@ function Portfolio() {
         <h1 className="text-center text-6xl font-poppins font-extrabold my-8">
           <span className="text-orange-400 underline">SKI</span>LLS
         </h1>
-        <div className="lg:flex">
-        {techData.map((item)=>(
-            <div className="w-full sm:w-[80%] py-4 sm:p-4 m-auto " key={item.id}>
-            <div className="bg-gray-900 w-[96%] md:w-[80%] xl:w-[70%] p-8 rounded-3xl m-auto  ">
-              <h3 className="text-center my-3 text-lg font-poppins text-gray-300">
-                {item.stack}
-              </h3>
-              <div className="bg-[#333333] w-full rounded-full m-auto h-[16px]  ">
-                <div className= {`bg-orange-500 text-right text-xs text-black h-[16px] rounded-full w-[${item.performance}] pr-1 font-poppins`}>
-                  {item.performance}
-                </div>
-              </div>
-              <div className="flex gap-4">
-              {item.tech.map((skill)=>(
-                <div
-                  className="bg-gray-900 rounded-full m-auto mt-10 w-20 sm:w-24 h-20 sm:h-24 flex animate-pulse"
-                  style={conicGradientStyle(skill.performance)}
-                  key={skill.id}
-                >
-                  <div className="bg-gray-900 rounded-full w-16 sm:w-20 h-16 sm:h-20 m-auto flex">
-                    <span className="m-auto  text-center text-[11px] text-white font-poppins">
-                      {skill.performance}% <br />
-                      {skill.techName}
-                    </span>
-                  </div>
-                </div>
-              ))}
-              </div>
-            </div>
-          </div>
-        ))}
-        </div>
+        <Skills/>
       </div>
       <div className="lg:flex gap-4">
       {data.map((item)=>(

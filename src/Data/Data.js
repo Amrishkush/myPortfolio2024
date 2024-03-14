@@ -204,4 +204,37 @@ export const projectData = [
   },
 ];
 
+import { FaReact, FaBootstrap,FaNode, FaGithub } from "react-icons/fa";
+import { SiTailwindcss,SiRedux,SiHtml5, SiCss3,SiJavascript,SiExpress,SiMongodb,SiVisualstudio } from "react-icons/si";
+export const skillsData = [
+  {
+    type: "Frontend",
+    lists: [
+      {name:"ReactJS" , icon: FaReact , color: "#61DAFB"},
+      {name:"Redux" , icon: SiRedux , color: "#764ABC"},
+      {name:"Tailwind CSS" , icon: SiTailwindcss , color: "#38B2AC"},
+      {name:"Bootstrap" , icon: FaBootstrap , color: "#7952B3"},
+      {name:"HTML5" , icon: SiHtml5 , color: "#E34F26"},
+      {name:"CSS3" , icon: SiCss3 , color: "#264DE4"},
+      {name:"JavaScript" , icon: SiJavascript , color: "#F7DF1E"},
+    ]
+  },
+  {
+    type: "Backend",
+    lists: [
+      {name:"Node.js" , icon: FaNode , color: "#339933"},
+      {name:"Express.js" , icon: SiExpress , color: "#FFFFFF"},
+      {name:"MongoDB" , icon: SiMongodb , color: "#47A248"},
+    ]
+  },
+  {
+    type: "Dev Tools",
+    lists: [
+      {name:"Github" , icon: FaGithub , color: "#FFFFFF"},
+      {name:"VS Code" , icon: SiVisualstudio , color: "#007ACC"},
+      
+    ]
+  }
+]
+
 //export in default from in curly bracket doesnt work correctly so write before const

@@ -3,13 +3,14 @@ import { FaNodeJs } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className="" id="home">
-      <div className="lg:flex ">
-        <div className="w-[50%] sm:w-[35%] lg:w-[40%] mx-auto m-8">
+    <div className=" lg:my-24" id="home">
+      <div className="lg:flex  m-auto">
+        <div className="w-[50%] sm:w-[35%] lg:w-[40%] mx-auto my-auto">
           <span className="animate-js absolute top-20 left-[40%] z-10">
             <FaNodeJs color="green" size={30} />
           </span>
-          <img src="Images/myImage.png" alt="" className="" />
+          <div className="my-auto"><img src="Images/myImage.png" alt="" className=" rounded-[100%] w-full my-auto" /></div>
+          
           {/* <div className="moving-border"></div> */}
         </div>
         <div className="h-full w-full lg:w-[60%] m-auto px-1 lg:pl-10">
@@ -31,7 +32,7 @@ function Home() {
           </div>
         </div>
       </div>
-      
+      {/* <div className="text-6xl inline-block absolute top-10 right-96">&lt;/coder&gt;</div> */}
       <div className="border-2 border-white rounded-full m-auto bg-black h-10 w-6 flex lg:hidden">
         {" "}
         <div className="border-2 border-white m-auto h-2 rounded-full animate-scroll"></div>

@@ -30,9 +30,9 @@ function App() {
           <div className="fixed top-6 right-0">
             <SocialBar />
           </div>
-
-          <div className=" py-[1%] lg:w-[1024px] xl:w-[1240px] 2xl:w-full h-screen opacity-100 m-auto">
-            {/* above overflow auto while making modal  */}
+                    
+          <div className=" py-[1%] lg:w-[1024px] xl:w-full 2xl:w-full h-screen  opacity-100 m-auto">
+            {/* above overflow auto while making modal  h-screen was there  xl:w-[1240px] */}
             <div className="block lg:hidden">
               <Home />
               <Portfolio />
