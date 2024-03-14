@@ -9,16 +9,16 @@ function Footer() {
     <div className="bg-gray-900 text-white font-poppins text-[10px] p-2 text-center flex gap-5 sm:gap-20 justify-center">
              <span className="my-auto"><span className="text-sm">©</span> 2024 <a href="#home" className="underline">Amrish Pratap Singh</a></span>
              <div className="flex text-white gap-4 ">
-             <a href="https://twitter.com/pratap_amrish" target="_blank" rel="noopener noreferrer">
+             <a href="https://twitter.com/pratap_amrish" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
              <FaTwitter size={20}/>
              </a>
-             <a href="https://github.com/Amrishkush" target="_blank" rel="noopener noreferrer">
+             <a href="https://github.com/Amrishkush" target="_blank" rel="noopener noreferrer" aria-label="Github">
              <FaGithub size={20}/>
              </a>
-             <a href="mailto:amrishkush@gmail.com" target="_blank" rel="noopener noreferrer">
+             <a href="mailto:amrishkush@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
              <MdEmail size={20}/>
              </a>
-             <a href="https://linkedin.com/in/amrishkush" target="_blank" rel="noopener noreferrer">
+             <a href="https://linkedin.com/in/amrishkush" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
              <FaLinkedin size={20}/>
              </a>
              </div>

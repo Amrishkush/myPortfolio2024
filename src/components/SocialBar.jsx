@@ -6,20 +6,20 @@ function SocialBar() {
   return (
     <div className="flex-col h-[40%] ">
       <div className="mb-12 h-[40%]">
-        <a href="https://www.linkedin.com/in/amrishkush/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/amrishkush/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   
         <FaLinkedin
           className="m-auto  p-1 rounded hover:bg-blue-800 hover:text-white cursor-pointer"
           size={30}
         />
         </a>
-        <a href="mailto:amrishkush@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:amrishkush@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
         <MdEmail
           className="m-auto p-1 rounded hover:bg-black hover:text-white cursor-pointer"
           size={30}
         />
         </a>
-        <a href="https://github.com/Amrishkush/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Amrishkush/" target="_blank" rel="noopener noreferrer" aria-label="Github">
         <FaSquareGithub
           className="m-auto p-1 rounded hover:bg-black hover:text-white cursor-pointer"
           size={30}
