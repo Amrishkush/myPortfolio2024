@@ -27,9 +27,9 @@ function Home() {
           <div className="font-poppins sm:px-2 text-center lg:text-left">
             I am currently transitioning to Full-Stack Web Developer.
           </div>
-          <div className="sm:px-2 py-2 w-[60%] sm:w-[50%] m-auto lg:ml-0 bg-[#000010] my-5 text-center text-white text-xl sm:text-2xl font-poppins rounded-md hover:bg-orange-500 cursor-pointer">
+          <a href="/Amrish-Pratap-Singh-Resume.pdf" target="_blank" rel="noopener noreferrer"><button className="sm:px-2 py-2 w-[60%] sm:w-[50%] m-auto lg:ml-0 bg-[#000010] my-5 text-center text-white text-xl sm:text-2xl font-poppins rounded-md hover:bg-orange-500 cursor-pointer">
             Download Resume
-          </div>
+          </button></a>
         </div>
       </div>
       {/* <div className="text-6xl inline-block absolute top-10 right-96">&lt;/coder&gt;</div> */}
