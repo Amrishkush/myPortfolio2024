@@ -4,7 +4,7 @@ import { FaNodeJs } from "react-icons/fa";
 function Home() {
   return (
     <div className=" lg:my-24" id="home">
-      <div className="lg:flex  m-auto">
+      <div className="lg:flex m-auto">
         <div className="w-[50%] sm:w-[35%] lg:w-[40%] mx-auto my-auto">
           <span className="animate-js absolute top-20 left-[40%] z-10">
             <FaNodeJs color="green" size={30} />
@@ -27,7 +27,7 @@ function Home() {
           <div className="font-poppins sm:px-2 text-center lg:text-left">
             I am currently transitioning to Full-Stack Web Developer.
           </div>
-          <a href="/Amrish-Pratap-Singh-Resume.pdf" target="_blank" rel="noopener noreferrer"><button className="sm:px-2 py-2 w-[60%] sm:w-[50%] m-auto lg:ml-0 bg-[#000010] my-5 text-center text-white text-xl sm:text-2xl font-poppins rounded-md hover:bg-orange-500 cursor-pointer">
+          <a href="/Amrish-Pratap-Singh-Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex justify-center"><button className="sm:px-2 py-2 w-[60%] sm:w-[50%] m-auto lg:ml-0 bg-[#000010] my-5 text-center text-white text-xl sm:text-2xl font-poppins rounded-md hover:bg-orange-500 cursor-pointer">
             Download Resume
           </button></a>
         </div>
