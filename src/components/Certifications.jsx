@@ -7,8 +7,8 @@ function Certifications() {
     <a target="blank" href="https://certificates.almabetter.com/en/verify/65283776399670" className="sm:w-[42%] lg:w-[21%]">
       <img src="https://verified-bucket.s3.eu-central-1.amazonaws.com/cert/65283776399670.png" alt=""/>
     </a>
-    <a target="blank" href="https://certificates.almabetter.com/en/verify/71720331793718" className="sm:w-[42%] lg:w-[21%]">
-      <img src="https://verified-bucket.s3.eu-central-1.amazonaws.com/cert/71720331793718.png" alt=""/>
+    <a target="blank" href="https://certificates.almabetter.com/en/verify/95607303133917" className="sm:w-[42%] lg:w-[21%]">
+      <img src="https://verified-bucket.s3.eu-central-1.amazonaws.com/cert/95607303133917.png" alt=""/>
     </a>
     <a target="blank" href="https://certificates.almabetter.com/en/verify/71720331793718" className="sm:w-[42%] lg:w-[21%]">
       <img src="https://verified-bucket.s3.eu-central-1.amazonaws.com/cert/71720331793718.png" alt=""/>
