@@ -28,23 +28,12 @@ export const portfolioData = [
     dataName: "Experience",
     data: [
       {
-        id: 1,
-        designation: "Teacher",
-        organization: "Brainwave Study Point",
-        year: "2021 - 2024",
-      },
-      {
-        id: 2,
-        designation: "Teacher",
-        organization: "Education Site Coaching",
-        year: "2019 - 2021",
-      },
-      {
-        id: 3,
-        designation: "Teacher & Co-ordinator",
-        organization: "D.D.N. Public Academy",
-        year: "2016 - 2019",
-      },
+        id: 1, 
+        designation: "Frontend Developer",
+        organization: "SkillSphere Solutions",
+        year: "June, 2023 -  March, 2024",
+        work :[ "Transformed a static HTML, CSS, and Bootstrap website into a dynamic, interactive platform using ReactJS, enhanced user experience.", "Developed over 10 reusable React components, optimizing frontend modularity and reducing development overhead by 25%.", "Implemented responsive design principles resulting in a 20% increase in website accessibility across various devices and screen sizes.","Implemented over 20 RESTful API calls within the React application ensuring efficient communication with backend services.","Implemented ReduxJS Toolkit in a project, reducing overall codebase complexity by 20% through optimized state management and utilizing Thunk middleware "],
+      }
     ],
   }
 ];

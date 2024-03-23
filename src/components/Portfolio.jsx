@@ -2,6 +2,7 @@ import { portfolioData} from "../Data/Data";
 import Certifications from "./Certifications";
 import Skills from "./Skills";
 
+
 const data = portfolioData;
 
 
@@ -88,19 +89,23 @@ function Portfolio() {
       </div>
       <div className="lg:flex gap-4">
       {data.map((item)=>(
-        <div className="w-[96%] sm:w-[70%] lg:w-[45%] my-6 m-auto" key={item.id}>
+        <div className="w-[96%] sm:w-[70%] lg:w-[45%] my-7 m-auto" key={item.id}>
           <h2 className="text-4xl text-center font-poppins font-extrabold mb-5">
             {item.dataName}
           </h2>
 
           {item.data.map((card)=>(
-            <div className="bg-gray-900 p-4 rounded-2xl my-4" key={card.id}>
-            <div className="inline text-white bg-orange-500 rounded-full px-3 py-1">
-              {card.year}
+            <div className="bg-gray-900 p-4 rounded-2xl my-4 shadow-orange-500 shadow-2xl" key={card.id}>
+            <div  className="mt-2">
+             <span className="text-white bg-orange-500 rounded-full  px-5 py-2 mt-4">{card.year}</span> 
             </div>
-            <div className="mt-3 text-gray-200">{card.course || card.designation}</div>
-            <div className="text-gray-200">{card.institute || card.organization}</div>
-          </div>
+            <div className="mt-3 px-2 text-gray-200 font-poppins text-2xl">{card.course || card.designation}</div>
+            <div className="text-orange-500 px-2 text-lg font-poppins my-1">{card.institute || card.organization}</div>
+            {card.work?.map((work,index)=>(
+              <div key={index} className="text-gray-300 flex"><span className="px-4 mt-2 font-normal text-sm">- {work}</span></div>
+            ))}
+            
+            </div>
           ))}
         </div>
       ))}

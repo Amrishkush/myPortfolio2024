@@ -1,9 +1,9 @@
 
 function Certifications() {
   return (
-    <div>
+    <div className="">
     <h1 className="text-center text-4xl font-semibold my-6">Certifications</h1>
-    <div className="flex gap-6 flex-wrap justify-center">
+    <div className="flex gap-6 flex-wrap justify-center ">
     <a target="blank" href="https://certificates.almabetter.com/en/verify/65283776399670" className="sm:w-[42%] lg:w-[21%]">
       <img src="https://verified-bucket.s3.eu-central-1.amazonaws.com/cert/65283776399670.png" alt=""/>
     </a>
